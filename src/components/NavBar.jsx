@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
-
+import Typical from 'react-typical'
 const NavBar = () => {
 
     const [nav, setNav]= useState(false);
@@ -36,7 +36,11 @@ const NavBar = () => {
   return (
     <div className=' flex justify-between items-center w-full h-20 px-4 text-white bg-black '>
         <div>
-            <h1 className=' text-5xl font-black ml-2'>Hello();</h1>
+            <h1 className=' text-5xl font-black ml-2'><Typical
+        steps={['Hello', 1000, 'Hello There! 👋' , 500]} 
+        loop={Infinity}
+        wrapper="p"
+      /></h1>
         </div>
 
         <ul className=' hidden md:flex'>
