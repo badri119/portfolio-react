@@ -13,6 +13,8 @@ const Contact = () => {
             If you want to get in touch with me, please shoot an email to badrinathv98@gmail.com
             </p>
             <br/>
+        </div> 
+        <div>
         </div>
     </div>
   )

@@ -9,5 +9,6 @@
     html{
         font-family: 'Raleway', sans-serif;
         font-family: 'Source Code Pro', monospace;
+        scroll-behavior: smooth;
     }
 }

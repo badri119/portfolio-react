@@ -8,16 +8,19 @@ const Projects = () => {
       id: 1,
       src: project3,
       href:'https://github.com/badri119/Search-Engine',
+      Text:'Java Search',
     },
     {
       id: 2,
       src: project1,
-      href: 'https://github.com/badri119/UwinCare-Frontend',
+      href: 'https://github.com/badri119/UWinCare',
+      Text: 'UWinCare',
     },
     {
       id: 3,
       src: project2,
       href:'https://github.com/badri119/FoodHunter-Recommendation-Engine',
+      Text:'FoodHunter'
     },
     
     
@@ -36,7 +39,7 @@ const Projects = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-        {projects.map(({ id, src, href }) => (
+        {projects.map(({ id, src, href,Text }) => (
           <a href = {href} target="_blank" rel="noreferrer">
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img
@@ -45,8 +48,8 @@ const Projects = () => {
               className="rounded-md duration-200 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Code
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 font-bold hover:text-gray-600 ">
+                {Text}
               </button>
             </div>
           </div>
