@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4eb6c454.css",
-    "main.js": "/portfolio-react/static/js/main.004127af.js",
-    "static/media/bike2.png": "/portfolio-react/static/media/bike2.0fe5ced0543864b7dbcc.png",
-    "static/media/bike1.png": "/portfolio-react/static/media/bike1.5f55c5ed9693f7645414.png",
-    "static/media/avatar.png": "/portfolio-react/static/media/avatar.5021e9c283768378c3e1.png",
-    "static/media/project1.png": "/portfolio-react/static/media/project1.b78281661fad4d88e563.png",
-    "static/media/project3.png": "/portfolio-react/static/media/project3.c311335aafa2ff57e448.png",
-    "static/media/python.png": "/portfolio-react/static/media/python.828ee9ae906608c15f2c.png",
-    "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/portfolio-react/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/project2.png": "/portfolio-react/static/media/project2.93beaa0e3da66f452109.png",
-    "static/media/ionic.png": "/portfolio-react/static/media/ionic.c7f3d7a347e82b80f8a9.png",
-    "static/media/java.png": "/portfolio-react/static/media/java.66d5a4fef00821dfe115.png",
-    "static/media/html.png": "/portfolio-react/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/portfolio-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/portfolio-react/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/portfolio-react/index.html",
-    "main.4eb6c454.css.map": "/portfolio-react/static/css/main.4eb6c454.css.map",
-    "main.004127af.js.map": "/portfolio-react/static/js/main.004127af.js.map"
+    "main.css": "/portfolio/static/css/main.1a25aa0e.css",
+    "main.js": "/portfolio/static/js/main.18e02769.js",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.6229098f1cbdbaa0f173.png",
+    "static/media/bike1.png": "/portfolio/static/media/bike1.5f55c5ed9693f7645414.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.5021e9c283768378c3e1.png",
+    "static/media/addrecipe.png": "/portfolio/static/media/addrecipe.fa09451b849eb4d54dcd.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.b78281661fad4d88e563.png",
+    "static/media/project3.png": "/portfolio/static/media/project3.a1c52651cc131ef64b5e.png",
+    "static/media/python.png": "/portfolio/static/media/python.828ee9ae906608c15f2c.png",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/project2.png": "/portfolio/static/media/project2.93beaa0e3da66f452109.png",
+    "static/media/ionic.png": "/portfolio/static/media/ionic.c7f3d7a347e82b80f8a9.png",
+    "static/media/java.png": "/portfolio/static/media/java.66d5a4fef00821dfe115.png",
+    "static/media/wedding.png": "/portfolio/static/media/wedding.338f4dd79ad6b44f5025.png",
+    "static/media/github.jpeg": "/portfolio/static/media/github.6a6c4b10bd417d3033ef.jpeg",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.1a25aa0e.css.map": "/portfolio/static/css/main.1a25aa0e.css.map",
+    "main.18e02769.js.map": "/portfolio/static/js/main.18e02769.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eb6c454.css",
-    "static/js/main.004127af.js"
+    "static/css/main.1a25aa0e.css",
+    "static/js/main.18e02769.js"
   ]
 }
