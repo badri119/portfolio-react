@@ -4,10 +4,7 @@ import linkedin from "../assets/linkedin.png";
 
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="w-full bg-gradient-to-b from-gray-800 to-black  p-4 text-white"
-    >
+    <div name="contact">
       <div className=" max-w-screen-lg p-30 mx-auto flex flex-col w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">

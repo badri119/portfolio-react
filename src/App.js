@@ -55,21 +55,31 @@ function App() {
       <NavBar />
       <Home />
       <SocialLinks />
-      <RevealOnScroll>
-        <About />
-      </RevealOnScroll>
-      <RevealOnScroll>
-        <Projects />
-      </RevealOnScroll>
-      <RevealOnScroll>
-        <Skills />
-      </RevealOnScroll>
-      <RevealOnScroll>
-        <Cycling />
-      </RevealOnScroll>
-      <RevealOnScroll>
-        <Contact />
-      </RevealOnScroll>
+      <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
+        <RevealOnScroll>
+          <About />
+        </RevealOnScroll>
+      </div>
+      <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white">
+        <RevealOnScroll>
+          <Projects />
+        </RevealOnScroll>
+      </div>
+      <div className="bg-gradient-to-b from-gray-800 to-black w-full ">
+        <RevealOnScroll>
+          <Skills />
+        </RevealOnScroll>
+      </div>
+      <div className=" w-full bg-gradient-to-b from-black to-gray-800 text-white  ">
+        <RevealOnScroll>
+          <Cycling />
+        </RevealOnScroll>
+      </div>
+      <div className="w-full bg-gradient-to-b from-gray-800 to-black  p-4 text-white">
+        <RevealOnScroll>
+          <Contact />
+        </RevealOnScroll>
+      </div>
     </div>
   );
 }
