@@ -10,8 +10,8 @@ const About = () => {
           </p>
         </div>
         <p className=" text-justify text-xl mt-5">
-          My name is Badri and I am a developer with strong interest in both
-          Frontend and Backend development.{" "}
+          My name is Badrinath Vasudevan and I am a developer with strong
+          interest in both Frontend and Backend development.{" "}
           <span className="text-teal-400">
             How I ignited curiosity in the field of computer science;
           </span>{" "}

@@ -8,6 +8,9 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import java from "../assets/java.png";
+import mongodb from "../assets/mongodb.png";
+import mysql from "../assets/mysql.png";
+import postgres from "../assets/postgres.png";
 
 const Skills = () => {
   const techs = [
@@ -59,12 +62,30 @@ const Skills = () => {
       title: "Ionic",
       style: "shadow-blue-500",
     },
-
     {
       id: 9,
       src: node,
       title: "Node",
       style: "shadow-green-500",
+    },
+
+    {
+      id: 10,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id: 11,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 12,
+      src: postgres,
+      title: "PostgreSQL",
+      style: "shadow-blue-500",
     },
   ];
   return (
