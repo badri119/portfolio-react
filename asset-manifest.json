@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1a25aa0e.css",
-    "main.js": "/portfolio/static/js/main.116a2da4.js",
+    "main.js": "/portfolio/static/js/main.24c8d728.js",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6229098f1cbdbaa0f173.png",
     "static/media/bike1.png": "/portfolio/static/media/bike1.5f55c5ed9693f7645414.png",
     "static/media/avatar.png": "/portfolio/static/media/avatar.5021e9c283768378c3e1.png",
     "static/media/addrecipe.png": "/portfolio/static/media/addrecipe.fa09451b849eb4d54dcd.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/project1.png": "/portfolio/static/media/project1.b78281661fad4d88e563.png",
+    "static/media/postgres.png": "/portfolio/static/media/postgres.1aab2c2ffd8219c20d9d.png",
     "static/media/project3.png": "/portfolio/static/media/project3.a1c52651cc131ef64b5e.png",
     "static/media/python.png": "/portfolio/static/media/python.828ee9ae906608c15f2c.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -19,13 +21,14 @@
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.2178943141ba7e7fae4e.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.1a25aa0e.css.map": "/portfolio/static/css/main.1a25aa0e.css.map",
-    "main.116a2da4.js.map": "/portfolio/static/js/main.116a2da4.js.map"
+    "main.24c8d728.js.map": "/portfolio/static/js/main.24c8d728.js.map"
   },
   "entrypoints": [
     "static/css/main.1a25aa0e.css",
-    "static/js/main.116a2da4.js"
+    "static/js/main.24c8d728.js"
   ]
 }
