@@ -1,0 +1,17 @@
+.style_text {
+  background-image: linear-gradient(270deg, #ff9900, #dc0714, #ff9900);
+  background-size: 200% 100%;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  animation: shimmer 3.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
 import { Helmet } from "react-helmet";
 import { IoChevronUp } from "react-icons/io5";
 import React, { useEffect, useRef, useState } from "react";
@@ -42,7 +43,7 @@ const RevealOnScroll = ({ children }) => {
 function App() {
   return (
     <div id="top">
-      <div className=" fixed w-10 h-10 rounded-full flex justify-center items-center bg-black z-10 bottom-5 right-10">
+      <div className=" fixed w-10 h-10 rounded-full flex justify-center items-center bg-black z-10 bottom-5 right-10 transition ease-in-out delay-120 hover:bg-slate-800 hover:-translate-y-1 hover:scale-110 duration-300 ">
         <a href="#top">
           <IoChevronUp color="white" size={30} />
         </a>
@@ -55,29 +56,34 @@ function App() {
       <NavBar />
       <Home />
       <SocialLinks />
-      <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
+      <div className="w-full bg-gradient-to-b from-black via-gray-900 to-gray-700 text-white">
         <RevealOnScroll>
           <About />
         </RevealOnScroll>
       </div>
-      <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white">
+      <div className="bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white">
         <RevealOnScroll>
           <Projects />
         </RevealOnScroll>
       </div>
-      <div className="bg-gradient-to-b from-gray-800 to-black w-full ">
+      <div className="bg-gradient-to-b from-black via-gray-900 to-gray-700 w-full ">
         <RevealOnScroll>
           <Skills />
         </RevealOnScroll>
       </div>
-      <div className=" w-full bg-gradient-to-b from-black to-gray-800 text-white  ">
+      <div className=" w-full bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white  ">
         <RevealOnScroll>
           <Cycling />
         </RevealOnScroll>
       </div>
-      <div className="w-full bg-gradient-to-b from-gray-800 to-black  p-4 text-white">
+      <div className="w-full bg-gradient-to-b from-black via-gray-900 to-gray-700 p-4 text-white">
         <RevealOnScroll>
           <Contact />
+        </RevealOnScroll>
+      </div>
+      <div className="w-full bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white  ">
+        <RevealOnScroll>
+          <Footer />
         </RevealOnScroll>
       </div>
     </div>

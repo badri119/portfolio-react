@@ -30,9 +30,8 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1-6L-SXlEg1Wkw-UaAR2oiy-FkhDAnRUs/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1hmc4VBXcOFTXgcYrilV5K85_oUh4FOiY/view?usp=sharing",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
@@ -51,7 +50,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
               rel="noreferrer"
             >
