@@ -41,7 +41,7 @@ const About = () => {
     });
   };
   return (
-    <section className="text-white lg:h-screen">
+    <section className="text-white lg:h-screen" name="about">
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16  sm:py-16">
           <img
@@ -52,13 +52,14 @@ const About = () => {
             alt="Avater"
           ></img>
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-            <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Why CS?</h2>
             <p className="text-base lg:text-lg text-justify ">
-              I sparked my interest in computer science while others found it
-              boring in school. Beyond games and music, I was fascinated by the
-              vast data it stored. The question of how computer technology would
-              shape the future intrigued me, leading me to decide to pursue a
-              career in the field.
+              I became interested in computer science after breaking down
+              complex software issues, comprehending the problem, and coming up
+              with a solution. Beyond games and music, I was fascinated by the
+              vast data it stored. Also, why did I write "CS"? I enjoy both
+              computer science and playing Counter-Strike, which remains my
+              favorite FPS.
             </p>
             <div className="flex flex-row mt-8 gap-8">
               <Tab

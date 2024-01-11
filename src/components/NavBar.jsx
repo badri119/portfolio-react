@@ -8,11 +8,15 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
+      link: "about",
+    },
+    {
+      id: 2,
       link: "projects",
     },
 
     {
-      id: 2,
+      id: 3,
       link: "contact",
     },
   ];
