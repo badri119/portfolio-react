@@ -1,0 +1,16 @@
+.wave_text {
+  background-image: linear-gradient(270deg, #fffb00, #34ec2d, #1281e2);
+  background-size: 200% 100%;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

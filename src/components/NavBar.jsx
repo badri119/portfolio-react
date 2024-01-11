@@ -8,49 +8,23 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
-    },
-    {
-      id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
       link: "projects",
-    },
-    {
-      id: 4,
-      link: "skills",
-    },
-    {
-      id: 5,
-      link: "cycling",
     },
 
     {
-      id: 6,
+      id: 2,
       link: "contact",
     },
   ];
   return (
-    <div className=" flex justify-between items-center w-full h-20 px-4 text-white bg-gray-700 ">
-      <div>
-        <h1 className=" text-5xl font-black ml-2">
-          <Typical
-            steps={["Hello", 1000, "Hello There! 👋", 500]}
-            loop={Infinity}
-            wrapper="p"
-          />
-        </h1>
-      </div>
-
+    <div className=" flex justify-end items-center w-full h-20 px-4 text-white bg-black ">
       <ul className=" hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
             className=" px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200 "
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth={true} duration={50}>
               {link}
             </Link>
           </li>
@@ -74,8 +48,8 @@ const NavBar = () => {
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
-                smooth
-                duration={500}
+                smooth={true}
+                duration={50}
               >
                 {link}
               </Link>
