@@ -25,7 +25,7 @@ const NavBar = () => {
       <div className="text-yellow-400 font-bold text-xl">
         {" "}
         <TypeAnimation
-          sequence={[`badri@badris-mbp ~ % echo "Hello There!"`, 1000]}
+          sequence={[`badri@badris ~ % echo "Hello There!"`, 1000]}
           wrapper="span"
           speed={30}
           repeat={1}
