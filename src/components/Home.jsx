@@ -1,5 +1,4 @@
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
 import main from "../assets/main.png";
 import "./css/Home.css";
 const Home = () => {
@@ -17,12 +16,7 @@ const Home = () => {
                   Hello, I am{" "}
                 </span>
                 <br />
-                <TypeAnimation
-                  sequence={["Badrinath Vasudevan", 1000]}
-                  wrapper="span"
-                  speed={30}
-                  repeat={1}
-                />
+                <span>Badrinath Vasudevan</span>
               </h1>
               <p className="text-white text-base sm:text-lg lg:text-xl mb-6">
                 I am a developer with strong interest in both Frontend and

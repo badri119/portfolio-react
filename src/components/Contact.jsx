@@ -1,8 +1,6 @@
 import React from "react";
 import github from "../assets/github.jpeg";
 import linkedin from "../assets/linkedin.png";
-import { motion } from "framer-motion";
-import Earth from "./Earth";
 
 const Contact = () => {
   return (
@@ -13,9 +11,7 @@ const Contact = () => {
             Contact
           </p>
         </div>
-        {/* <motion.div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-          <Earth />
-        </motion.div> */}
+
         <div className=" flex flex-row gap-10 justify-center py-7">
           {/* LinkedIn Box */}
           <div className=" hover:scale-105 duration-500 shadow-lg shadow-blue-500 max-w-md rounded-lg overflow-hidden py-12 mb-6 w-full sm:w-96 text-center">

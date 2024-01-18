@@ -32,7 +32,7 @@ const Tab_Data = [
 ];
 
 const About = () => {
-  const [tab, setTab] = useState("education");
+  const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
   const handleChange = (id) => {
