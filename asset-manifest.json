@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1900f2ae.css",
-    "main.js": "/portfolio/static/js/main.81881dcd.js",
+    "main.css": "/portfolio/static/css/main.ae8d09f3.css",
+    "main.js": "/portfolio/static/js/main.6e338937.js",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6229098f1cbdbaa0f173.png",
     "static/media/bike1.png": "/portfolio/static/media/bike1.5f55c5ed9693f7645414.png",
     "static/media/avatar.png": "/portfolio/static/media/avatar.5021e9c283768378c3e1.png",
@@ -12,10 +12,9 @@
     "static/media/postgres.png": "/portfolio/static/media/postgres.1aab2c2ffd8219c20d9d.png",
     "static/media/project3.png": "/portfolio/static/media/project3.a1c52651cc131ef64b5e.png",
     "static/media/python.png": "/portfolio/static/media/python.828ee9ae906608c15f2c.png",
-    "static/media/theperks2.png": "/portfolio/static/media/theperks2.fb1ad06db8a2865038c4.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/API.png": "/portfolio/static/media/API.c854ad528a21c5cfda8f.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/project2.png": "/portfolio/static/media/project2.93beaa0e3da66f452109.png",
     "static/media/ionic.png": "/portfolio/static/media/ionic.c7f3d7a347e82b80f8a9.png",
     "static/media/java.png": "/portfolio/static/media/java.66d5a4fef00821dfe115.png",
     "static/media/wedding.png": "/portfolio/static/media/wedding.338f4dd79ad6b44f5025.png",
@@ -24,13 +23,14 @@
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.2178943141ba7e7fae4e.png",
+    "static/media/snapchat.png": "/portfolio/static/media/snapchat.6895712800ba8b82f8c6.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.1900f2ae.css.map": "/portfolio/static/css/main.1900f2ae.css.map",
-    "main.81881dcd.js.map": "/portfolio/static/js/main.81881dcd.js.map"
+    "main.ae8d09f3.css.map": "/portfolio/static/css/main.ae8d09f3.css.map",
+    "main.6e338937.js.map": "/portfolio/static/js/main.6e338937.js.map"
   },
   "entrypoints": [
-    "static/css/main.1900f2ae.css",
-    "static/js/main.81881dcd.js"
+    "static/css/main.ae8d09f3.css",
+    "static/js/main.6e338937.js"
   ]
 }
