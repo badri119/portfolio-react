@@ -8,8 +8,8 @@ const Home = () => {
         name="home"
         className=" h-screen w-full bg-gradient-to-b from-black via-gray-900 to-gray-700"
       >
-        <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full  md:flex-row">
-          <div className="grid grid-cols-1 sm:grid-cols-12 h-screen">
+        <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row">
+          <div className="grid grid-cols-1 sm:grid-cols-12 md:h-screen h-3/4">
             <div className="col-span-7 place-self-center text-center sm:text-left">
               <h1 className="mb-4 text-4xl lg:text-6xl sm:text-5xl font-extrabold">
                 <span className="text-transparent bg-clip-text style_text_main">
@@ -18,7 +18,7 @@ const Home = () => {
                 <br />
                 <span>Badrinath Vasudevan</span>
               </h1>
-              <p className="text-white text-base sm:text-lg lg:text-xl mb-6">
+              <p className="text-white text-base sm:text-lg lg:text-xl mb-6 px-10 md:px-0">
                 I am a developer with strong interest in both Frontend and
                 Backend development.
               </p>

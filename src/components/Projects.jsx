@@ -1,48 +1,48 @@
 import React from "react";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/addrecipe.png";
 import project5 from "../assets/wedding.png";
-import project6 from "../assets/theperks2.png";
+import project7 from "../assets/snapchat.png";
+import project8 from "../assets/API.png";
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      src: project8,
+      href: "https://github.com/badri119/API-Generator",
+      Text: "API Generator",
+    },
+    {
+      id: 2,
+      src: project7,
+      href: "https://github.com/badri119/snapchat-clone",
+      Text: "Snapchat Clone",
+    },
+    {
+      id: 3,
       src: project4,
       href: "https://github.com/badri119/Add-Recipe-Frontend",
       Text: "AddRecipe",
     },
     {
-      id: 2,
+      id: 4,
       src: project5,
       href: "https://github.com/badri119/Wedding-Website",
       href2: "https://www.jv-wedding.com/",
       Text: "Wedding Website",
     },
     {
-      id: 3,
+      id: 5,
       src: project3,
       href: "https://github.com/badri119/Search-Engine",
       Text: "Java Search",
     },
     {
-      id: 4,
+      id: 6,
       src: project1,
       href: "https://github.com/badri119/UWinCare",
       Text: "UWinCare",
-    },
-    {
-      id: 5,
-      src: project2,
-      href: "https://github.com/badri119/FoodHunter-Recommendation-Engine",
-      Text: "FoodHunter",
-    },
-    {
-      id: 6,
-      src: project6,
-      href: "https://theperks.ai/",
-      Text: "ThePerksAi",
     },
   ];
   return (

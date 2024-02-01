@@ -1,14 +1,13 @@
 import React, { useState, useTransition } from "react";
 import Avatar from "../assets/avatar.png";
 import Tab from "../components/Tab";
-import "./css/About.css";
 
 const Tab_Data = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <p className="wave_text">
+      <p className="text-white">
         Javascript, HTML, CSS, Python, React, Tailwind, Ionic, Node, MongoDB,
         MySQL, PostgresSQL
       </p>
@@ -27,7 +26,12 @@ const Tab_Data = [
   {
     title: "Hobbies",
     id: "hobbies",
-    content: <p>Cycling, Playing football and Pizza Crawling</p>,
+    content: (
+      <p>
+        During my free time, I love cycling, playing football, and indulging in
+        pizza crawling
+      </p>
+    ),
   },
 ];
 

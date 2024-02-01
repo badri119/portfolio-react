@@ -12,7 +12,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className=" flex flex-row gap-10 justify-center py-7">
+        <div className=" flex flex-col px-16 md:px-0 md:flex-row gap-10 justify-center py-7">
           {/* LinkedIn Box */}
           <div className=" hover:scale-105 duration-500 shadow-lg shadow-blue-500 max-w-md rounded-lg overflow-hidden py-12 mb-6 w-full sm:w-96 text-center">
             <div className=" flex justify-center content-center">
