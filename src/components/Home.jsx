@@ -19,14 +19,14 @@ const Home = () => {
                 <span>Badrinath Vasudevan</span>
               </h1>
               <p className="text-white text-base sm:text-lg lg:text-xl mb-6 px-10 md:px-0">
-                I am a developer with strong interest in both Frontend and
-                Backend development.
+                I am a developer with a strong interest in Full-Stack
+                Development
               </p>
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
               <div className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                 <img
-                  className="rounded-md absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  className="rounded-md relative transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                   src={main}
                   alt="Main_Image"
                   width={300}

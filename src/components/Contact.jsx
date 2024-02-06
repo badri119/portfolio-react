@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div name="contact">
       <div className=" max-w-screen-lg p-30 mx-auto flex flex-col w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
+        <div className="px-4">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
         </div>
