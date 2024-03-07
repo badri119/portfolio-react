@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1bdc9991.css",
-    "main.js": "/portfolio/static/js/main.979f7e71.js",
+    "main.css": "/portfolio/static/css/main.b336eb9d.css",
+    "main.js": "/portfolio/static/js/main.393d9ee6.js",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6229098f1cbdbaa0f173.png",
-    "static/media/avatar.png": "/portfolio/static/media/avatar.5021e9c283768378c3e1.png",
+    "static/media/bikeproject.png": "/portfolio/static/media/bikeproject.0576e5adf15dde6ba858.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.3c3c5ba14220dc3427e7.png",
     "static/media/addrecipe.png": "/portfolio/static/media/addrecipe.fa09451b849eb4d54dcd.png",
     "static/media/main.png": "/portfolio/static/media/main.da704d17086cc843928e.png",
     "static/media/project1.png": "/portfolio/static/media/project1.b78281661fad4d88e563.png",
@@ -11,13 +12,12 @@
     "static/media/API.png": "/portfolio/static/media/API.c854ad528a21c5cfda8f.png",
     "static/media/wedding.png": "/portfolio/static/media/wedding.338f4dd79ad6b44f5025.png",
     "static/media/github.jpeg": "/portfolio/static/media/github.6a6c4b10bd417d3033ef.jpeg",
-    "static/media/snapchat.png": "/portfolio/static/media/snapchat.6895712800ba8b82f8c6.png",
     "index.html": "/portfolio/index.html",
-    "main.1bdc9991.css.map": "/portfolio/static/css/main.1bdc9991.css.map",
-    "main.979f7e71.js.map": "/portfolio/static/js/main.979f7e71.js.map"
+    "main.b336eb9d.css.map": "/portfolio/static/css/main.b336eb9d.css.map",
+    "main.393d9ee6.js.map": "/portfolio/static/js/main.393d9ee6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bdc9991.css",
-    "static/js/main.979f7e71.js"
+    "static/css/main.b336eb9d.css",
+    "static/js/main.393d9ee6.js"
   ]
 }
