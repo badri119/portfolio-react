@@ -15,7 +15,7 @@ const Projects = () => {
       href: "https://github.com/badri119/API-Generator",
       href2: "https://api-generator-frontend.vercel.app/",
       title: "API Generator",
-      text: "Created a fun API generator application where you can mess around with APIs and also makde a small game to test your HTTP knowledge with HTTP codes. ",
+      text: "Created a fun API generator application where you can mess around with APIs. Also made a small game to test your HTTP knowledge with HTTP codes.",
     },
     {
       id: 2,
