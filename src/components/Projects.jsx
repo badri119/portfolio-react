@@ -15,7 +15,7 @@ const Projects = () => {
       href: "https://github.com/badri119/API-Generator",
       href2: "https://api-generator-frontend.vercel.app/",
       title: "API Generator",
-      text: "Created a fun API generator application where you can mess around with APIs and built a game to test your HTTP knowledge",
+      text: "Created a fun API generator application where you can mess around with APIs and also makde a small game to test your HTTP knowledge with HTTP codes. ",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Projects = () => {
       href: "https://github.com/badri119/Add-Recipe-Frontend",
       href2: "https://www.youtube.com/watch?v=v_g3jq2_uP0",
       title: "AddRecipe",
-      text: "Built a website where users can add recipes and view other recipes",
+      text: "Built a full-stack application where users can add recipes and view other recipes. This app involves CRUD operations and the main HTTP request methods",
     },
     {
       id: 4,
@@ -39,21 +39,21 @@ const Projects = () => {
       href: "https://github.com/badri119/Wedding-Website",
       href2: "https://www.jv-wedding.com/",
       title: "Wedding Website",
-      text: "I designed and created a wedding website for my sister who got married recently!",
+      text: "I designed and created a wedding website for my sister who got married recently! This website was built in 5 days and is my first react project :)",
     },
     {
       id: 5,
       src: project3,
       href: "https://github.com/badri119/Search-Engine",
       title: "Java Search",
-      text: "Created a Java-based Search Engine with keyword counting, web scraping, sorting, frequency analysis, and domain name extraction, integrated with a Javalin-based GUI",
+      text: "Created a Java-based Search Engine with keyword counting, web scraping, sorting and frequency analysis, integrated with a Javalin-based GUI",
     },
     {
       id: 6,
       src: project1,
       href: "https://github.com/badri119/UWinCare",
       title: "UWinCare",
-      text: "A dyanmic full-stack mobile application for students to express their feelings anonymously and seek help",
+      text: "A dyanmic full-stack mobile application for students to share their feelings anonymously during tough tough times and seek help from experts.",
     },
   ];
   return (
