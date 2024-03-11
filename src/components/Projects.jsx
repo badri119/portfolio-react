@@ -5,6 +5,7 @@ import project4 from "../assets/addrecipe.png";
 import project5 from "../assets/wedding.png";
 import project7 from "../assets/bikeproject.png";
 import project8 from "../assets/API.png";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./css/Home.css";
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
       id: 1,
       src: project8,
       href: "https://github.com/badri119/API-Generator",
-      href2: "https://api-generator-frontend.vercel.app/",
+      website: "https://api-generator-frontend.vercel.app/",
       title: "API Generator",
       text: "Created a fun API generator application where you can mess around with APIs. Also made a small game to test your HTTP knowledge with HTTP codes.",
     },
@@ -21,7 +22,7 @@ const Projects = () => {
       id: 2,
       src: project7,
       href: "https://github.com/badri119/Fit-go",
-      href2: "https://www.youtube.com/watch?v=5u-XRX5Rmng",
+      demo: "https://www.youtube.com/watch?v=5u-XRX5Rmng",
       title: "Fit.go",
       text: "I created an app for connecting people based on their outdoor activity preferences, inspired by my passion for cycling and outdoor adventures.",
     },
@@ -29,7 +30,8 @@ const Projects = () => {
       id: 3,
       src: project4,
       href: "https://github.com/badri119/Add-Recipe-Frontend",
-      href2: "https://www.youtube.com/watch?v=v_g3jq2_uP0",
+      demo: "https://www.youtube.com/watch?v=v_g3jq2_uP0",
+      website: "https://add-recipe-frontend-ashen.vercel.app/",
       title: "AddRecipe",
       text: "Built a full-stack application where users can add recipes and view other recipes. This app involves CRUD operations and the main HTTP request methods",
     },
@@ -37,7 +39,7 @@ const Projects = () => {
       id: 4,
       src: project5,
       href: "https://github.com/badri119/Wedding-Website",
-      href2: "https://www.jv-wedding.com/",
+      website: "https://www.jv-wedding.com/",
       title: "Wedding Website",
       text: "I designed and created a wedding website for my sister who got married recently! This website was built in 5 days and is my first react project :)",
     },
@@ -67,9 +69,12 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, href, href2, title, text }) => (
+          {projects.map(({ id, src, href, demo, website, title, text }) => (
             // <a href={href} target="_blank" rel="noreferrer"></a>
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg h-86">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg h-86 w-auto "
+            >
               <div>
                 <img
                   src={src}
@@ -83,26 +88,40 @@ const Projects = () => {
                 <div className="px-5 pb-3">
                   <p className="">{text}</p>
                 </div>
-                <div className="flex justify-between gap-8 py-2">
+                <div className="flex justify-between gap-4 pt-2 pb-4">
                   <div className="">
                     <a
                       href={href}
                       target="_blank"
                       rel="noreferrer"
-                      className="link-button hover:bg-blue-500 text-white font-bold py-2 px-4 hover:rounded inline-block hover:scale-105 hover:duration-500 duration-500"
+                      className="link-button hover:bg-blue-500 text-white font-semibold py-2 px-2 hover:rounded  hover:scale-105 hover:duration-500 duration-500 flex"
                     >
-                      Code
+                      <FaGithub size={22} />
+                      &nbsp;Code
                     </a>
                   </div>
-                  {href2 ? (
-                    <div className="link-container">
+                  {demo ? (
+                    <div className="">
                       <a
-                        href={href2}
+                        href={demo}
                         target="_blank"
                         rel="noreferrer"
-                        className="link-button hover:bg-blue-500 text-white font-bold py-2 px-4 hover:rounded inline-block hover:scale-105 hover:duration-500 duration-500"
+                        className="link-button hover:bg-blue-500 text-white font-semibold py-2 px-2 hover:rounded flex hover:scale-105 hover:duration-500 duration-500"
                       >
                         Demo
+                      </a>
+                    </div>
+                  ) : null}
+                  {website ? (
+                    <div className="">
+                      <a
+                        href={website}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link-button hover:bg-blue-500 text-white font-semibold py-2 px-2 hover:rounded hover:scale-105 hover:duration-500 duration-500 flex flex-row"
+                      >
+                        <FaExternalLinkAlt size={22} />
+                        &nbsp;Website
                       </a>
                     </div>
                   ) : null}
