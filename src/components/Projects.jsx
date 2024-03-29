@@ -5,6 +5,7 @@ import project4 from "../assets/addrecipe.png";
 import project5 from "../assets/wedding.png";
 import project7 from "../assets/bikeproject.png";
 import project8 from "../assets/API.png";
+import project9 from "../assets/tic.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./css/Home.css";
 
@@ -56,6 +57,13 @@ const Projects = () => {
       href: "https://github.com/badri119/UWinCare",
       title: "UWinCare",
       text: "A dyanmic full-stack mobile application for students to share their feelings anonymously during tough tough times and seek help from experts.",
+    },
+    {
+      id: 7,
+      src: project9,
+      href: "https://github.com/badri119/Tic-Tac-Toe",
+      website: "https://tic-tac-toe-mu-rose.vercel.app/",
+      text: " Built a Tic-Tac-Toe game to keep in touch with programming in general amdist this insane job market where it's quite impossible to land a job.",
     },
   ];
   return (
