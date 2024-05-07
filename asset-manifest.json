@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b1448f5a.css",
-    "main.js": "/portfolio/static/js/main.90da0266.js",
+    "main.js": "/portfolio/static/js/main.837b0809.js",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6229098f1cbdbaa0f173.png",
     "static/media/bikeproject.png": "/portfolio/static/media/bikeproject.0576e5adf15dde6ba858.png",
-    "static/media/tic.png": "/portfolio/static/media/tic.30d0741383ae0b61aa4e.png",
     "static/media/avatar.png": "/portfolio/static/media/avatar.3c3c5ba14220dc3427e7.png",
     "static/media/addrecipe.png": "/portfolio/static/media/addrecipe.fa09451b849eb4d54dcd.png",
     "static/media/main.png": "/portfolio/static/media/main.da704d17086cc843928e.png",
@@ -12,13 +11,14 @@
     "static/media/project3.png": "/portfolio/static/media/project3.a1c52651cc131ef64b5e.png",
     "static/media/API.png": "/portfolio/static/media/API.c854ad528a21c5cfda8f.png",
     "static/media/wedding.png": "/portfolio/static/media/wedding.338f4dd79ad6b44f5025.png",
+    "static/media/react2.png": "/portfolio/static/media/react2.892681780eb823403e7d.png",
     "static/media/github.jpeg": "/portfolio/static/media/github.6a6c4b10bd417d3033ef.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b1448f5a.css.map": "/portfolio/static/css/main.b1448f5a.css.map",
-    "main.90da0266.js.map": "/portfolio/static/js/main.90da0266.js.map"
+    "main.837b0809.js.map": "/portfolio/static/js/main.837b0809.js.map"
   },
   "entrypoints": [
     "static/css/main.b1448f5a.css",
-    "static/js/main.90da0266.js"
+    "static/js/main.837b0809.js"
   ]
 }
