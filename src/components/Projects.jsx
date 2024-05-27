@@ -4,7 +4,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/addrecipe.png";
 import project5 from "../assets/wedding.png";
 import project7 from "../assets/bikeproject.png";
-import project8 from "../assets/API.png";
+import project8 from "../assets/learn.jpeg";
 import project9 from "../assets/react2.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./css/Home.css";
@@ -14,10 +14,10 @@ const Projects = () => {
     {
       id: 1,
       src: project8,
-      href: "https://github.com/badri119/API-Generator",
+      href: "https://github.com/badri119/The-Learning-Process",
       website: "https://api-generator-frontend.vercel.app/",
-      title: "API Generator",
-      text: "Created a fun API generator application where you can mess around with APIs. Also made a small game to test your HTTP knowledge with HTTP codes.",
+      title: "The Learning Process",
+      text: "A website where I created mini-projects to undertand full-stack development involving React, NodeJS, ExpressJS, PostgreSQL, RESTful API, Redux and more!",
     },
     {
       id: 2,
