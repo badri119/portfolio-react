@@ -58,13 +58,6 @@ const Projects = () => {
       title: "UWinCare",
       text: "A dyanmic full-stack mobile application for students to share their feelings anonymously during tough tough times and seek help from experts.",
     },
-    {
-      id: 7,
-      src: project9,
-      href: "https://github.com/badri119/React-fun",
-      // website: "https://tic-tac-toe-mu-rose.vercel.app/",
-      text: " Built various mini projects with React to keep in touch with programming in general amdist this insane job market where it's quite impossible to land a job.",
-    },
   ];
   return (
     <div name="portfolio">
